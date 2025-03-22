@@ -29,7 +29,8 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/artifacts"
             ],
             "styles": [
               "src/styles.scss"
