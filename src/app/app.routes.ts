@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { CounterComponent } from './counter/counter.component';
 import { CounterLoader } from './counter/counter-loader';
+import { CounterExamplesComponent } from './counter/counter-examples/counter-examples.component';
 
 export const routes: Routes = [
   {
@@ -10,7 +10,7 @@ export const routes: Routes = [
   },
   {
     path: 'counter',
-    component: CounterComponent,
+    component: CounterExamplesComponent,
     canActivate: [CounterLoader],
   },
 ];

@@ -1,0 +1,17 @@
+.counter-b-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 0.25rem solid #f0060b;
+  color: #f0060b;
+
+  h2 {
+    margin: 0 0 1rem 0;
+  }
+
+  p {
+    margin: 0 0 4rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}

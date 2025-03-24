@@ -41,8 +41,7 @@
   .content {
     display: flex;
     width: 100%;
-    margin-bottom: 1rem;
-    gap: 0.5rem;
+    margin-bottom: 3rem;
     justify-content: center;
     align-items: center;
   }
@@ -75,9 +74,9 @@
           gradientTransform="rotate(118.122 171.182 60.81) scale(205.794)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF41F8" />
-          <stop offset=".707" stop-color="#FF41F8" stop-opacity=".5" />
-          <stop offset="1" stop-color="#FF41F8" stop-opacity="0" />
+          <stop stop-color="#f0060b" />
+          <stop offset=".707" stop-color="#f0060b" stop-opacity=".5" />
+          <stop offset="1" stop-color="#f0060b" stop-opacity="0" />
         </radialGradient>
         <linearGradient
           id="b"
@@ -87,16 +86,14 @@
           y2="192"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#F0060B" />
-          <stop offset="0" stop-color="#F0070C" />
-          <stop offset=".526" stop-color="#CC26D5" />
-          <stop offset="1" stop-color="#7702FF" />
+          <stop stop-color="#f0060b" />
+          <stop offset="0" stop-color="#f0060b" />
+          <stop offset=".526" stop-color="#f0060b" />
+          <stop offset="1" stop-color="#f0060b" />
         </linearGradient>
         <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
       </defs>
     </svg>
-    <h1>Host</h1>
   </div>
-  <p>Initial counter state: {{ count$ | async }}</p>
   <router-outlet />
 </main>

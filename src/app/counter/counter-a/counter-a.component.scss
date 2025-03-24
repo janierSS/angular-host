@@ -1,0 +1,31 @@
+.counter-a-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 0.25rem solid #F0060B;
+    color: #F0060B;
+
+    &__controls{
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 4rem;
+
+        button {
+            background-color: #F0060B;
+            color: white;
+            border: none;
+            // padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.2s;
+        
+            &:active {
+              transform: scale(0.95);
+            }
+          }
+    }
+
+    h2{
+        margin: 0 0 1rem 0;
+    }
+}
